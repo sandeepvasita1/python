@@ -1,3 +1,6 @@
+Write a program to search an element in the list using 
+for loop and also demonstrate the use of “else” with for loop.
+
 lst=[10,20,30,40,50,60,70,80,90]
 val=int(input("enter the number to find:"))
 
