@@ -1,3 +1,6 @@
+Write a program to generate prime numbers with the 
+help of a function to test prime or not. 
+
 def prime(n):
     if n<=1:
         return False
