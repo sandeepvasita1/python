@@ -1,3 +1,8 @@
+Create a program name “employee.py” and implement the 
+functions DA, HRA, PF, and ITAX. Create another program 
+that uses the function of employee module and calculates gross 
+and net salaries of an employee 
+  
 import employee
 
 bsal=int(input("enter the basic salary"))
