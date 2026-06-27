@@ -1,3 +1,6 @@
+Create a program to search the position of an element in 
+an array using index() method of array class. 
+
 import array as ar
 arr=ar.array('i',[2,5,8,7,9,2,1,6,7,5])
 
