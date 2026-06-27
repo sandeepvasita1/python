@@ -1,3 +1,9 @@
+Write a menu driven program to perform the 
+following menu: (1) Find Area of Circle (2) 
+Find Area of Triangle (3) Find Area of Square 
+(4) Find Simple Interest (5) Exit. (using match
+case) 
+
 while True:
     print("1: Area of circle")
     print("2: Area of triangle")
