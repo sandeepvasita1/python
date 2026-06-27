@@ -1,3 +1,7 @@
+Write a program to understand various methods of array class 
+mentioned: append, insert, remove, pop, index, ,tolist and 
+count.
+
 import array as ar
 arr=ar.array('i',[2,5,6,7,8,9,4])
 print(arr)
