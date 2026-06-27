@@ -1,3 +1,6 @@
+Create a program to display memory locations of two 
+variables using id() function, and then use identity 
+operators two compare whether two objects are same or not.
 a=[10,20,30]
 b=a
 
