@@ -1,3 +1,7 @@
+Write a program to create a list using range functions and 
+perform append, update and delete elements operations 
+in it. 
+  
 lst=list(range(1,15))
 print("print element",lst)
 
