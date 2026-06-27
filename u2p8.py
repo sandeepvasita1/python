@@ -1,3 +1,7 @@
+Write  programs to demonstrate the use of Positional 
+Argument, keyword argument , default arguments , variable 
+length arguments
+
 def pos(x,y):
     print(x+y)
 
