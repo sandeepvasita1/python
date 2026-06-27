@@ -1,3 +1,5 @@
+Write a program to swap two numbers without taking a 
+temporary variable
 a=int(input("enter value a:"))
 b=int(input("enter value b:"))
 
