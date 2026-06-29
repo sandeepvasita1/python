@@ -1,3 +1,5 @@
+Write a program to accept elements in the form of a tuple and 
+display its minimum, maximum, sum and average. 
 t1=(10,20,30,40,50)
 
 print("maximum  from traple number",max(t1))
