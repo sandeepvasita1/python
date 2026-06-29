@@ -1,3 +1,7 @@
+
+Create a sample list of 7 elements and implement the List 
+methods mentioned: append, insert, copy, extend, count, 
+remove, pop, sort, reverse and clear.
 lst=[7,8,5,2,6,3,4,1,2]
 lst.append(40)
 print(lst)
