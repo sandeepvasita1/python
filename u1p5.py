@@ -14,7 +14,7 @@ for i in list1:
 
         
 for i in list1:
-    if item not in list2:
+    if i not in list2:
         non_common.append(i)
 
 
