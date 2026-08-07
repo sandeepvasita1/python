@@ -8,19 +8,19 @@ list2=[30,40,50,60,70]
 common = []
 non_common = []
 
-for item in list1:
-    if item in list2:
-        common.append(item)
+for i in list1:
+    if i in list2:
+        common.append(i)
 
         
-for item in list1:
+for i in list1:
     if item not in list2:
-        non_common.append(item)
+        non_common.append(i)
 
 
-for item in list2:
-    if item not in list1:
-        non_common.append(item)
+for i in list2:
+    if i not in list1:
+        non_common.append(i)
 
 
 print("common element:",common)
