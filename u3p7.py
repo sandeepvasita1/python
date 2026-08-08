@@ -7,4 +7,4 @@ c1.setmark(78)
 
 c1.getrno()
 c1.getname()
-c1.getmark
+c1.getmark()
