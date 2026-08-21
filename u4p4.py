@@ -1,3 +1,4 @@
+# first step open windows command prompt and enter this line "pip install pandas"
 import pandas as pd
 
 
