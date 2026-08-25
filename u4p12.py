@@ -1,3 +1,4 @@
+# first step open windows command prompt and enter this line "pip install matplotlib"
 import matplotlib.pyplot as plt
 
 eid=[101,102,103,104,105]
