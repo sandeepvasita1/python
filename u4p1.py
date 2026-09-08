@@ -1,3 +1,4 @@
+# first step open windows command prompt and enter this line "pip install mysql-connector-python"
 import mysql.connector
 
 # Step 1: Connect to MySQL
@@ -41,7 +42,7 @@ print("EMPLOYEE table is ready.")
 # Step 5: Insert records
 records = [
     (101, "Sandeep", 25000),
-    (102, "suhani", 30000),
+    (102, "Suhani", 30000),
     (103, "krima", 28000),
     (104, "Priya", 35000)
 ]
