@@ -1,31 +1,27 @@
-class blank:
-    def __init__(self,n,b):
-        self.name=n
-        self.bal=b
+class Bank:
+    def __init__(self, name, balance):
+        self.Name = name
+        self.Balance = balance
 
-    def display(self):
-        print("account name is:",self.name)
-        print("balance is:",self.bal)
+    def deposit(self, amount):
+        self.Balance += amount
+        print(f"Deposited: {amount}")
+        print(f"New Balance: {self.Balance}")
 
-
-    def deposit(self,a):
-        self.bal+=a
-        print("deposite amount is:",a)
-        print("deposite balance is:",self.bal)
-
-    def withrawal(self,a):
-        if self.bal>a:
-            self.bal-=a
-            print("deposit amount is:",a)
-            print("current balance is:",self.bal)
-
+    def withdraw(self, amount):
+        if amount <= self.Balance:
+            self.Balance -= amount
+            print(f"Withdrawn: {amount}")
+            print(f"New Balance: {self.Balance}")
         else:
-            print("insufficient balance")
-            
-            
-b1=blank("sandeep",7000)
-b1.display()
-b1.deposit(3000)
-b1.withrawal(5000)
-b1.withrawal(5000)
+            print("Insufficient balance")
 
+
+# Creating an object
+account = Bank("sandeep", 5000)
+
+# Deposit
+account.deposit(2000)
+
+# Withdrawal
+account.withdraw(1500)
