@@ -1,6 +1,6 @@
 import pandas as pd
 
-data={'category':['a','b','c','d'],
+data={'category':['a','b','a','b'],
       'value':[10,20,30,40]}
 
 df=pd.DataFrame(data)
